@@ -1,0 +1,6 @@
+1) Install serverless -> npm install -g serverless
+2) Create serverless project -> serverless create --template aws-nodejs --path sls-first
+3) Install serverless-offline -> npm install serverless-offline --save-dev
+4) Invoke function locally -> serverless invoke local --function hello --path event.json
+5) Run server offline -> serverless offline
+
